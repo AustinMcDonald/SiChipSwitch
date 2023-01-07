@@ -1,0 +1,95 @@
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 303:Plugin executed on: 'win32'
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 304:Plugin executed with python version: '3.9.6 (default, Sep 27 2021, 21:15:11) [MSC v.1929 64 bit (AMD64)]'
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 305:KiCad build version: (6.0.0)
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 306:Plugin version: 1.2.1
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 307:Frame repr: <wx._core.Frame object at 0x000001B3018EFC10>
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 331:Preparing replicator with U6 as a reference
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 106:getting a list of all footprints on board
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:source anchor footprint is 'U6'
+Located on: ['Channel']
+With filenames: ['Channel.kicad_sch']
+With sheet_id:['Channel']
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 366:Corresponding footprints are 
+[('U9', ['Channel3']), ('U11', ['Channel5']), ('U7', ['Channel1']), ('U14', ['Channel7']), ('U8', ['Channel2']), ('U10', ['Channel4']), ('U13', ['Channel9']), ('U12', ['Channel8']), ('U15', ['Channel6']), ('U6', ['Channel'])]
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 378:Showing dialog
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'Channel', file:'Channel.kicad_sch'
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['Channel1'], ['Channel2'], ['Channel3'], ['Channel4'], ['Channel5'], ['Channel6'], ['Channel7'], ['Channel8'], ['Channel9']]
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1112:Level selected: ['Channel']
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 384:Toolbar position: wx.Point(-55, -389)
+01-07 10:12:31 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 390:Dialog position: wx.Point(-419, -389)
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 344:constructing a list of sheets suitable for replication on level:'Channel', file:'Channel.kicad_sch'
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 381:suitable sheets are:[['Channel1'], ['Channel2'], ['Channel3'], ['Channel4'], ['Channel5'], ['Channel6'], ['Channel7'], ['Channel8'], ['Channel9']]
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 157:Replicating layout
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 154:Starting replication of sheets: [['Channel1'], ['Channel2'], ['Channel3'], ['Channel4'], ['Channel5'], ['Channel6'], ['Channel7'], ['Channel8'], ['Channel9']]
+on level: ['Channel']
+with tracks=True, zone=True, text=True, text=True, containing=True, remove=False, locked footprints=False, by_group=False
+01-07 10:12:33 root 243:updating GUI message: 'Preparing for replication'
+01-07 10:12:33 root 248:updating GUI with: 0
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 224:Getting the list of source footprints
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 239:Getting the list of all the remaining footprints
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 244:Getting nets local to source footprints
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 247:Getting source bounding box
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 251:Getting source tracks
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 266:Getting source zones
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 275:Getting source text items
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 284:Getting source drawing items
+01-07 10:12:33 root 243:updating GUI message: 'Replicating footprints'
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 678:Replicating footprints
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Channel1']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Channel2']
+01-07 10:12:33 root 248:updating GUI with: 17
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Channel3']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Channel4']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Channel5']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Channel6']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Channel7']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Channel8']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 684:Replicating footprints on sheet ['Channel9']
+01-07 10:12:33 root 243:updating GUI message: 'Replicating tracks'
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 844:Replicating tracks
+01-07 10:12:33 root 248:updating GUI with: 0
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Channel1']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Channel2']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Channel3']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Channel4']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Channel5']
+01-07 10:12:33 root 248:updating GUI with: 50
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Channel6']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Channel7']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Channel8']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 850:Replicating tracks on sheet ['Channel9']
+01-07 10:12:33 root 243:updating GUI message: 'Replicating zones'
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 909:Replicating zones
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Channel1']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Channel2']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Channel3']
+01-07 10:12:33 root 248:updating GUI with: 33
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Channel4']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Channel5']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Channel6']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Channel7']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Channel8']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 916:Replicating zones on sheet ['Channel9']
+01-07 10:12:33 root 243:updating GUI message: 'Replicating text'
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 985:Replicating text
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Channel1']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Channel2']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Channel3']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Channel4']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Channel5']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Channel6']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Channel7']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Channel8']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 992:Replicating text on sheet ['Channel9']
+01-07 10:12:33 root 243:updating GUI message: 'Replicating drawings'
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1032:Replicating drawings
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Channel1']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Channel2']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Channel3']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Channel4']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Channel5']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Channel6']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Channel7']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Channel8']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1038:Replicating drawings on sheet ['Channel9']
+01-07 10:12:33 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 177:Replication complete
